@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const nextBtn = document.getElementById('next-btn');
     let currentSlide = 0;
     let autoScrollInterval;
-    const autoScrollDelay = 20000; // 20 seconds between slides
+    const autoScrollDelay = 30000; // 30 seconds between slides
 
     // Create dots for navigation
     slides.forEach((_, index) => {
