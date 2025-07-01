@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "An M3 is more than a gift, it is a future",
         "It would be a partner for years to come, increasing my productivity in tech ventures",
         "It was essential for completing my final year project",
-        "Is is a necessary step for my skill and career progression",
+        "It is a necessary addition for my skill and career progression",
         "Even this presentation was made with a Macbook"
     ];
 
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const nextBtn = document.getElementById('next-btn');
     let currentSlide = 0;
     let autoScrollInterval;
-    const autoScrollDelay = 30000; // 30 seconds between slides
+    const autoScrollDelay = 38000; // 30 seconds between slides
 
     // Create dots for navigation
     slides.forEach((_, index) => {
